@@ -1,0 +1,175 @@
+/********** Common CSS Starts **********/  
+html, body {
+    font-family Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+    font-weight: 400;
+}
+html {
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%;
+    font-size:10px;
+    -webkit-tap-highlight-color:transparent 
+}
+* {
+    margin:0px;
+    padding:0px;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    outline:0 
+}
+.main-cont{
+position: relative;
+width: 100%;
+height: 100%;
+
+}
+Span{
+  font-size: 40px;
+  font-weight: 600;
+}
+.r{
+  color: violet;
+}
+.e{
+  color: indigo;
+}
+.b{
+  color: blue;
+}
+.s{
+  color: green;
+}
+.y{
+  color: orange;
+}
+.head1p1headquote{
+   text-align: center;
+   margin-left: 15%;
+}
+.container {
+    width:100%;
+    margin:0px auto;
+    display:table;
+}
+.width-100 {
+    width:100%;
+    float:left;
+}
+.width-70{
+        z-index: 1;
+        background: rgb(0, 217, 255);
+        position: relative;
+        display: flex;
+        height: 100%;
+        width: 80%;
+        border-radius: 20px;
+        margin: 0%;
+        margin-left: 21%;
+        float: right;
+}
+.width-33{
+    width:100%;
+    position: absolute;
+    display: block;
+
+}
+.row {
+  margin-top: 20%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.col-4 {
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 5px;
+  transition: transform 0.5s;
+}
+
+.col-4 img {
+  width: 100%;
+}
+.nav1{
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: yellowgreen;
+}
+.login{
+  box-sizing: border-box;
+  border-radius: 10px;
+  background: green;
+}
+.sidebar{
+  z-index: 1;
+  position: absolute;
+  left: 0;
+  width: 20%;
+  height: 100%;
+  background: rgb(217, 232, 241);
+  margin-left: 0;
+  float: left;
+}
+.sidebar h2{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  line-height: 70px;
+  background: rgb(146, 255, 246);
+  user-select: none;
+}
+.sidebar ul a{
+  position: relative;
+  height: 100%;
+  width:20% ;
+  line-height: 65px;
+  font-size: 25px;
+  color: white;
+  padding-left:20px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(255, 255, 255, 1);
+  border-bottom: 1px solid rgb(22, 154, 230);
+}
+.sidebar ul li{
+  display: block;
+}
+.main-section {
+    width:100%;
+    float:left;
+    padding-top:80px;
+    padding-bottom:80px;
+}
+/********** Common CSS Ends **********/
+
+  /**********  Logo and nav CSS Code Starts  **********/
+.search-panel {
+    background: rgb(70, 181, 224);
+    padding: 12px 0px;
+  }
+  .cart-sect {
+    list-style: none;
+    float: right;
+    margin-top: 8px;
+  }
+  .cart-sect li {
+    float: left;
+    padding: 0px 6px;
+  }
+  .cart-sect li a {
+    font-size: 14px;
+    color: #ffffff;
+    font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+  .cart-sect li i {
+    font-size: 14px;
+    color: #ffffff;
+  }
+  /**********  Logo and nav CSS Code Ends  **********/
+  
+/**********  Footer-Section CSS Code Starts  **********/
