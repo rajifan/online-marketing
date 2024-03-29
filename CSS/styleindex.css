@@ -61,7 +61,7 @@ Span{
 }
 .width-70{
         z-index: 1;
-        background: rgb(0, 217, 255);
+        background: rgb(255, 255, 255);
         position: relative;
         display: flex;
         height: 100%;
@@ -98,12 +98,10 @@ Span{
 .nav1{
   box-sizing: border-box;
   border-radius: 10px;
-  background: yellowgreen;
 }
 .login{
   box-sizing: border-box;
   border-radius: 10px;
-  background: green;
 }
 .sidebar{
   z-index: 1;
@@ -132,8 +130,6 @@ Span{
   color: white;
   padding-left:20px;
   box-sizing: border-box;
-  border-top: 1px solid rgba(255, 255, 255, 1);
-  border-bottom: 1px solid rgb(22, 154, 230);
 }
 .sidebar ul li{
   display: block;
@@ -161,13 +157,13 @@ Span{
     padding: 0px 6px;
   }
   .cart-sect li a {
-    font-size: 14px;
+    font-size: 20px;
     color: #ffffff;
     font-family "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-decoration: none;
   }
   .cart-sect li i {
-    font-size: 14px;
+    font-size: 20px;
     color: #ffffff;
   }
   /**********  Logo and nav CSS Code Ends  **********/
