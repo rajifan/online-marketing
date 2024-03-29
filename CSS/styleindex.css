@@ -32,7 +32,7 @@ Span{
   font-weight: 600;
 }
 .r{
-  color: violet;
+  color: white;
 }
 .e{
   color: indigo;
@@ -118,7 +118,7 @@ Span{
   color: white;
   text-align: center;
   line-height: 70px;
-  background: rgb(146, 255, 246);
+  background: ;
   user-select: none;
 }
 .sidebar ul a{
@@ -168,4 +168,65 @@ Span{
   }
   /**********  Logo and nav CSS Code Ends  **********/
   
+/**********  Footer-Section CSS Code Starts  **********/
+footer{
+  background: #242424;
+  margin-bottom: 0;
+  height: 300px;
+}
+.footer1 {
+  background: #242424;
+  color: #8a8a8a;
+  font-size: 14px;
+}
+.footer p {
+  color: #8a8a8a;
+}
+.footer h3 {
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4 {
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1 {
+  flex-basis: 30%;
+}
+.footer-col-2 {
+  flex: 1;
+  text-align: center;
+}
+.footer-col-3,
+.footer-col-4 {
+  flex-basis: 12%;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+}
+.footer hr {
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright {
+  text-align: center;
+}
+.footer hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+  }
+  .copyright {
+    text-align: center;
+  }
+  .social-media li{
+    display: inline;
+  }
 /**********  Footer-Section CSS Code Starts  **********/
