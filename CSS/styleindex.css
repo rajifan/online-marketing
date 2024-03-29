@@ -42,10 +42,6 @@ Span{
 .y{
   color: orange;
 }
-.head1p1headquote{
-   text-align: center;
-   margin-left: 15%;
-}
 .container {
     width:100%;
     margin:0px auto;
@@ -79,6 +75,9 @@ Span{
   align-items: center;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+.row img:hover{
+  margin-bottom: 5px;
 }
 .col-4 {
   flex-basis: 25%;
@@ -129,11 +128,8 @@ Span{
 .sidebar ul li{
   display: block;
 }
-.main-section {
-    width:100%;
-    float:left;
-    padding-top:80px;
-    padding-bottom:80px;
+.sidebar ul li:hover{
+  margin-right: 5px;
 }
 /********** Common CSS Ends **********/
 
@@ -161,6 +157,9 @@ Span{
     font-size: 20px;
     color: #ffffff;
   }
+  .nav1 li:hover{
+    cursor: pointer;
+  }
   /**********  Logo and nav CSS Code Ends  **********/
   
 /**********  Footer-Section CSS Code Starts  **********/
@@ -181,24 +180,20 @@ footer{
   color: #ffffff;
   margin-bottom: 20px;
 }
-.footer-col-1,
-.footer-col-2,
 .footer-col-3,
 .footer-col-4 {
   min-width: 250px;
   margin-bottom: 20px;
 }
-.footer-col-1 {
-  flex-basis: 30%;
-}
-.footer-col-2 {
-  flex: 1;
-  text-align: center;
-}
+
 .footer-col-3,
 .footer-col-4 {
   flex-basis: 12%;
   text-align: center;
+}
+.footer-col-3 li,
+.footer-col-4 li{
+  padding-bottom: 10px;
 }
 ul {
   list-style-type: none;
@@ -233,5 +228,6 @@ footer ul li a:hover{
   }
   .social-media li{
     display: inline;
+    font-size: 20px;
   }
 /**********  Footer-Section CSS Code Starts  **********/
