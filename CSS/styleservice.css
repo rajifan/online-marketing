@@ -36,7 +36,6 @@ Span{
 .y{
   color: orange;
 }
-
 .mid a{
     text-decoration: none;
     color: rgb(13, 12, 12);
@@ -49,7 +48,6 @@ width: 100px;
 }
 .container{
     width: 100%;
-   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,11 +56,7 @@ width: 100px;
 .left{
     flex-basis: 50%;
 }
-
 <!-- services-->
-
-
-
  *{
     margin: 0;
     padding: 0;
@@ -74,23 +68,18 @@ font-family: 'poppins';
     width: 100%;
     background-color: #dfe0ec;
  }
- 
 .service-wrapper{
     padding: 5% 8%;
 }
-
-
 h1{
     color: #090909;
     font-size: 5px;
 }
-
 .service{
     align-items: center;
     display: flex;
    flex-direction: column;
 }
-
 h1{
    font-size: 5rem;
    letter-spacing: 2px;
@@ -102,7 +91,6 @@ background: linear-gradient(8deg,rgb(35, 81, 110) 0%,rgb(34, 89, 76) 41%, rgb(18
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 position: relative;
-
    }
 h1::after{
 content: "";
@@ -113,7 +101,6 @@ height: 8px;
 width: 80%;
 border-radius: 8px;
 background-color: rgba(255, 255, 255, 0.05);
-
 }
 h1 span{
     position: absolute;
@@ -177,7 +164,6 @@ top: -100%;
    font-size: 4.8rem; 
 
 }
-
 .card h2{
     color: #0f0d0d;
     font-size: 20px;
@@ -197,7 +183,6 @@ letter-spacing: 1px;
     border-color: #0a1915;
     
 }
-
 .card:hover{
     color: #09110b;
 }
@@ -251,8 +236,18 @@ ul {
 .copyright {
   text-align: center;
 }
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 .row ul{
   display: inline-block;
+}
+.row a{
+  text-decoration: none;
+  color: #8a8a8a;
 }
 .social-media li{
   display: inline;
@@ -266,39 +261,4 @@ ul {
 }
 .container1 a:hover{
   color: white;
-}
-@media only screen and (max-width: 800px) {
-  nav ul {
-    position: absolute;
-    top: 70px;
-    left: 0;
-    background: #333;
-    width: 100%;
-    overflow: hidden;
-    transition: max-height 0.5s;
-  }
-  nav ul li {
-    display: block;
-    margin-right: 50px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  nav ul li a {
-    color: #fff;
-  }
-}
-.container1 {
-  max-width: 1300px;
-  margin: auto;
-  padding-left: 25px;
-  padding-right: 25px;
-}
-/* media query for less than 600 screen size */
-@media only screen and (max-width: 600px) {
-  .row {
-    text-align: center;
-  }
-  .col-4 {
-    flex-basis: 100%;
-  }
 }
