@@ -2,7 +2,7 @@
 
 header{
   width: 100%;
-  height: 15vh;
+  height: 100px;
    background-color: rgb(28, 177, 207);
   }
 nav{
@@ -43,22 +43,18 @@ color: orange;
 
 .mid a{
   text-decoration: none;
-  color: rgb(13, 12, 12);
-  font-size: 30px;
-  padding: 10px;
-  margin: 10px;
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  margin: 5px;
 }
 .icon img{
 width: 100px;
 }
-
 .left{
   flex-basis: 50%;
 
 }
-
-  <!--header end-->
-
   *{
       margin: 0px;
       padding: 0px;
@@ -70,7 +66,6 @@ width: 100px;
   background-color: #e8f0fe;
   padding: 50px;
   text-align: center;
-
 }
 .container{
   max-width: 800px;
@@ -81,13 +76,11 @@ width: 100px;
   margin-bottom: 70px;
   color: #333;
   position: relative;
- 
 }
 .contact-wrapper{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 grid-gap: 30px;
-
 }
 .contact-form{
   text-align: center;
@@ -150,9 +143,6 @@ color: #555;
   grid-template-columns: 1fr;
 }
 }
-
-
-
 /*****footer style ****/
 .footer {
 background: #000;

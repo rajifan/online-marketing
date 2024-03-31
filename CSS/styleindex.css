@@ -67,7 +67,6 @@ Span{
     width:100%;
     position: absolute;
     display: block;
-
 }
 .row {
   margin-top: 200px;
@@ -160,6 +159,11 @@ Span{
   .nav1 li:hover{
     cursor: pointer;
   }
+  .nav ul li:hover{
+    cursor: pointer;
+    margin-bottom: 2px;
+  }
+
   /**********  Logo and nav CSS Code Ends  **********/
   
 /**********  Footer-Section CSS Code Starts  **********/
@@ -185,7 +189,6 @@ footer{
   min-width: 250px;
   margin-bottom: 20px;
 }
-
 .footer-col-3,
 .footer-col-4 {
   flex-basis: 12%;
