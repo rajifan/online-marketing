@@ -16,7 +16,6 @@ nav{
 .logo{
   font-size: 50px;
   font-weight: bold;
-  letter-spacing: 5px;
 }
 Span{
 font-size: 40px;
@@ -38,9 +37,8 @@ color: green;
 color: orange;
 }
 .mid{
-  margin-top: 100px;
+  margin-top: 80px;
 }
-
 .mid a{
   text-decoration: none;
   color: white;
@@ -48,12 +46,15 @@ color: orange;
   padding: 5px;
   margin: 5px;
 }
+.mid a:hover{
+  font-size: 25px;
+  background: #4caf50;
+}
 .icon img{
 width: 100px;
 }
 .left{
   flex-basis: 50%;
-
 }
   *{
       margin: 0px;

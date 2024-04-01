@@ -240,7 +240,7 @@ footer ul li a:hover{
 }
 
 @media screen and (max-width: 480px) {
-  .nav1 {
+  .nav {
       display: none;
   }
 }
