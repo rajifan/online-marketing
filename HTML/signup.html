@@ -3,42 +3,120 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SIGN UP</title>
+    <title>Sign Up - Online Market</title>
     <link rel="stylesheet" href="../CSS/stylesignup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <form action="signupform.html">
-        <div class="input-group">
-<input type="text" name="username" value=""placeholder="enter username">
+    <header>
+        <div class="container1">
+            <div class="logo">
+                <span class="r" title="Raji Kumsa">R</span>
+                <span class="e" title="Edaso Guja">E</span>
+                <span class="b" title="Bosona Gosaye">B</span>
+                <span class="s" title="Sa'ad Zeynu">S</span>
+                <span class="y" title="Yadeal ">Y</span>
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="service.html">Services</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="input-group">
-            <input type="text" name="fname" value=""placeholder="firstname">
-                    </div>
-                    <div class="input-group">
-                        <input type="text" name="lname" value=""placeholder="lastname">
-                                </div>
-      <tr>
-        <td>Sex</td>
-        <td>
-            <input type="radio" name="sex" value="male">Male 
-            <input type="radio" name="sex" value="female" >Female
-        </td>
-      </tr>
-      <div class="input-group">
-        <input type="email" name="email" placeholder="enter email">
-                </div> 
-                <div class="input-group">
-                    <input type="phone" name="phone_no" placeholder="enter phone_no">
-                            </div>
-                            <div class="input-group">
-                                <input type="password" name="password_1" placeholder="enter password">
-                                        </div>  
-                                        <div class="input-group">
-                                            <input type="password" name="password_2" placeholder="confirm password">
-                                                    </div> 
-                                                    <div class="input-group">
-<button type="submit" class="btn" name="reg_user">signup</button>
-                                                    </div>                                                                   
-     </form>     
+    </header>
+
+    <div class="container">
+        <div class="form-container">
+            <h2>Sign Up - REBSY Online Market</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="firstName">First Name</label>
+                    <input type="text" id="firstName" name="firstName" required>
+                </div>
+                <div class="form-group">
+                    <label for="lastName">Last Name</label>
+                    <input type="text" id="lastName" name="lastName" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <label for="phoneNumber">Phone Number</label>
+                    <input type="tel" id="phoneNumber" name="phoneNumber" [0-9]{9} required>
+                </div>
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
+                </div>
+                <div class="form-group">
+                    <label for="paymentMethod">Payment Method</label>
+                    <select id="paymentMethod" name="paymentMethod" required>
+                        <option value="">Select Payment Method</option>
+                        <option value="creditCard">Credit Card</option>
+                        <option value="debitCard">Debit Card</option>
+                        <option value="paypal">PayPal</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Sign Up">
+                </div>
+                <div class="form-group switch-form">
+                    Already have an account? <a href="#">Sign In</a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="container1">
+            <div class="row">
+                <div class="footer-col-3">
+                    <h3>Account Detail</h3>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="About.html">About us</a></li>
+                        <li><a href="#">Shopping Cart</a></li>
+                        <li><a href="#">Checkout</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Quick Link</h3>
+                    <ul>
+                        <li><a href="#">Create account</a></li>
+                        <li><a href="#">Change Password</a></li>
+                        <li><a href="#">Order History</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col-3">
+                    <h2 class="quicklink-heading">GET IN TOUCH</h2>
+                    <ul class="get-in-touch">
+                        <li><i class="fa fa-envelope-o" aria-hidden="true"></i> E-MAIL:<a href="#" class="footer-e-mail"> rebsy@gmail.com</a></li>
+                        <li><i class="fa fa-fax" aria-hidden="true"></i> CONTACT NO.: <a href="#">+251972988494</a></li>
+                        <li><i class="fa fa-globe" aria-hidden="true"></i> WEBSITE:<a href="#" class="footer-website"> https://www.rebsy.com</a></li>
+                    </ul>
+                    <ul class="social-media">
+                        <li><a href="#"><i class="fa fa-facebook" title="facebook"></i></a></li>
+                        <li><a href="#"><i class="fa fa-twitter" title="twitter"></i></a></li>
+                        <li><a href="#"><i class="fa fa-telegram" title="telegram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-instagram" title="instagram"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright &copy; 2024 - REBSY </p>
+        </div>
+    </div>
 </body>
 </html>

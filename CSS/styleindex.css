@@ -15,6 +15,55 @@ html, body {
     padding:0;
     outline:0 
 }
+  /**********  Logo and nav CSS Code Starts  **********/
+  header {
+    background: rgb(70, 181, 224);
+    padding: 12px 0px;
+  }
+  Span{
+    font-size: 40px;
+    font-weight: 600;
+  }
+  .logo{
+    cursor: pointer;
+    margin-left: 20px;
+  }
+  .r{
+    color: white;
+  }
+  .e{
+    color: indigo;
+  }
+  .b{
+    color: blue;
+  }
+  .s{
+    color: green;
+  }
+  .y{
+    color: orange;
+  }
+  
+  .nav ul{
+    float: right;
+    margin-right: 20px;
+  }
+  .nav ul li{
+    display: inline;
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .nav ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nav li:hover{
+    cursor: pointer;
+    background: greenyellow;
+    font-size: 30px;
+  }
+  /**********  Logo and nav CSS Code Ends  **********/
 .main-cont{
 position: relative;
 width: 100%;
@@ -23,33 +72,10 @@ height: 100%;
 a:hover{
   cursor: pointer;
 }
-Span{
-  font-size: 40px;
-  font-weight: 600;
-}
-.r{
-  color: white;
-}
-.e{
-  color: indigo;
-}
-.b{
-  color: blue;
-}
-.s{
-  color: green;
-}
-.y{
-  color: orange;
-}
 .container {
     width:100%;
     margin:0px auto;
     display:table;
-}
-.width-100 {
-    width:100%;
-    float:left;
 }
 .width-70{
         z-index: 1;
@@ -87,10 +113,6 @@ Span{
 }
 .col-4 img {
   width: 100%;
-}
-.nav1{
-  box-sizing: border-box;
-  border-radius: 10px;
 }
 .login{
   box-sizing: border-box;
@@ -131,40 +153,6 @@ Span{
   margin-right: 5px;
 }
 /********** Common CSS Ends **********/
-
-  /**********  Logo and nav CSS Code Starts  **********/
-.search-panel {
-    background: rgb(70, 181, 224);
-    padding: 12px 0px;
-  }
-  .cart-sect {
-    list-style: none;
-    float: right;
-    margin-top: 8px;
-  }
-  .cart-sect li {
-    float: left;
-    padding: 0px 6px;
-  }
-  .cart-sect li a {
-    font-size: 20px;
-    color: #ffffff;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    text-decoration: none;
-  }
-  .cart-sect li i {
-    font-size: 20px;
-    color: #ffffff;
-  }
-  .nav1 li:hover{
-    cursor: pointer;
-  }
-  .nav ul li:hover{
-    cursor: pointer;
-    margin-bottom: 2px;
-  }
-
-  /**********  Logo and nav CSS Code Ends  **********/
   
 /**********  Footer-Section CSS Code Starts  **********/
 footer{
@@ -205,10 +193,10 @@ footer ul li a{
   text-decoration: none;
   margin-top: 15px;
   padding-bottom: 10px;
-  color: #ffffff;
+  color: #8a8a8a;
 }
 footer ul li a:hover{
-  color: purple;
+  color: #ffff;
   text-decoration: underline;
 }
 .footer hr {
@@ -234,3 +222,25 @@ footer ul li a:hover{
     font-size: 20px;
   }
 /**********  Footer-Section CSS Code Starts  **********/
+@media screen and (max-width: 768px) {
+  .width-70 {
+      width: 100%;
+      margin-left: 0;
+  }
+  .sidebar {
+      display: none;
+  }
+  .row {
+      margin-top: 200px;
+  }
+  .col-4 {
+      flex-basis: 50%;
+      min-width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav1 {
+      display: none;
+  }
+}
