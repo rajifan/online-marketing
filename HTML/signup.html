@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="../Images/userico.ico">
-    <title>Sign Up - Online Market</title>
+    <title>Sign Up - REBSY</title>
     <link rel="stylesheet" href="../CSS/stylesignup.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -32,6 +32,7 @@
     <div class="container">
         <div class="form-container">
             <h2>Sign Up - REBSY Online Market</h2>
+            <img src="../Images/useeer.PNG" alt="user" width="200px" height="200px">
             <form action="">
                 <div class="form-group">
                     <label for="username">Username</label>
@@ -58,17 +59,26 @@
                     <input type="tel" id="phoneNumber" name="phoneNumber" [0-9]{9} required>
                 </div>
                 <div class="form-group">
-                    <label for="city">City</label>
-                    <input type="text" id="city" name="city" required>
+                    <label for="paymentMethod">Region</label>
+                    <select id="paymentMethod"  required>
+                        <option value="">Select your region</option>
+                        <option value="Addis Ababa">Addis Ababa</option>
+                        <option value="Dire Dawa">Dire Dawa</option>
+                        <option value="Oromia">Oromia</option>
+                        <option value="Amhara">Amhara</option>
+                        <option value="Affar">Affar</option>
+                        <option value="somale">Somale</option>
+                        <option value="Sidama">Sidama</option>
+                        <option value="SNNPR">SNNPR</option>
+                        <option value="TIgray">Tigray</option>
+                        <option value="Harari">Harari</option>
+                        <option value="Gambela">Gambela</option>
+                        <option value="Benishangul-gumuz">Benishangul-Gumuz</option>
+                    </select>
                 </div>
                 <div class="form-group">
-                    <label for="paymentMethod">Payment Method</label>
-                    <select id="paymentMethod" name="paymentMethod" required>
-                        <option value="">Select Payment Method</option>
-                        <option value="creditCard">Credit Card</option>
-                        <option value="debitCard">Debit Card</option>
-                        <option value="paypal">PayPal</option>
-                    </select>
+                    <label for="city">City</label>
+                    <input type="text" id="city" name="city" required>
                 </div>
                 <div class="form-group">
                     <input type="submit" value="Sign Up">

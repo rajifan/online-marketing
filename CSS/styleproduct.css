@@ -53,6 +53,9 @@ background: rgb(70, 181, 224);
     text-decoration: none;
     color: #555;
   }
+  nav ul li a:hover{
+    font-size: 25px;
+  }
   p {
     color: #555;
   }
