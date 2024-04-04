@@ -69,6 +69,13 @@ font-family: 'poppins';
 }
 .service-wrapper{
   padding: 5% 8%;
+  position: relative;
+}
+.image{
+  position: absolute;
+  float: left;
+  width: 200px;
+  height: 150px;
 }
 h1{
   color: #090909;
